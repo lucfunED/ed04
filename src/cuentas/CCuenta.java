@@ -33,9 +33,6 @@ public class CCuenta {
         saldo=sal;
     }
 
-    
-    
-    // Getter methods
 
     /**
      *
@@ -101,9 +98,6 @@ public class CCuenta {
         this.tipoInterés = tipoInterés;
     }
 
-    
-    
-    // Other methods
 
     /**
      *
