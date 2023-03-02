@@ -42,6 +42,7 @@ public class CCuenta {
         return nombre;
     }
 
+    
     /**
      *
      * @return cuenta
@@ -50,6 +51,7 @@ public class CCuenta {
         return cuenta;
     }
 
+    
     /**
      *
      * @return saldo
@@ -58,6 +60,7 @@ public class CCuenta {
         return saldo;
     }
 
+    
     /**
      *
      * @return tipoInterés
@@ -66,6 +69,7 @@ public class CCuenta {
         return tipoInterés;
     }
 
+    
     /**
      *
      * @param nombre
@@ -74,6 +78,7 @@ public class CCuenta {
         this.nombre = nombre;
     }
 
+    
     /**
      *
      * @param cuenta
@@ -82,6 +87,7 @@ public class CCuenta {
         this.cuenta = cuenta;
     }
 
+    
     /**
      *
      * @param saldo
@@ -90,6 +96,7 @@ public class CCuenta {
         this.saldo = saldo;
     }
 
+    
     /**
      *
      * @param tipoInterés
@@ -107,6 +114,7 @@ public class CCuenta {
         return getSaldo();
     }
 
+    
     /**
      *
      * @param cantidad
@@ -118,6 +126,7 @@ public class CCuenta {
         setSaldo(getSaldo() + cantidad);
     }
 
+    
     /**
      *
      * @param cantidad
@@ -130,6 +139,7 @@ public class CCuenta {
             throw new Exception ("No se hay suficiente saldo");
         setSaldo(getSaldo() - cantidad);
     }
+    
     
     /**
      *
